@@ -29,7 +29,7 @@ nav {
 }
 
 main {
-    background: url("imagens/background.png") no-repeat center center;
+    background: url("imagens/bgteste.png") no-repeat center center;
     background-size: cover;
     height: 90vh;
 }
@@ -108,4 +108,18 @@ main {
 
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px)
+}
+
+h1, p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.text {
+    height: 150px;
+    width: 500px;
+    background-color: #4C6793;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
 }

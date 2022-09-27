@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    background: url("imagens/bgteste.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
 a {
     color: #fff;
     text-decoration: none;
@@ -26,12 +32,6 @@ nav {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: black;
     height: 10vh;
-}
-
-main {
-    background: url("imagens/bgteste.png") no-repeat center center;
-    background-size: cover;
-    height: 90vh;
 }
 
 .nav-list {
@@ -138,7 +138,7 @@ h1, p{
 .myphoto {
     display: block;
     background-color: #4C6793;
-    border-radius: 120px;
+    border-radius: 50%;
     padding: 8px;
-    margin: auto;
+    margin: 30px auto 10px;
 }
